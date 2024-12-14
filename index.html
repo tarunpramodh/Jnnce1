@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Last Minute Train Ticket Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="process.php" method="post">
+        <h2><centre>Last Minute Train Ticket Registration Form</centre></h2>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" required><br><br>
+
+        <label for="class">Class:</label>
+        <input type="text" id="class" name="class" required><br><br>
+
+        <label for="trainnumber">Train number:</label>
+        <input type="number" id="trainnumber" name="trainnumber" required><br><br>
+
+        <label for="checkInDatetime">Check-In Date-Time:</label>
+        <input type="datetime-local" id="checkInDatetime" name="checkInDatetime" required><br><br>
+
+        <label for="departure_station">Departure-station:</label>
+        <input type="text" id="departure_station" name="departure_station" required><br><br>
+ 
+        <label for="destination_station">Destination-station:</label>
+        <input type="text" id="destination_station" name="destination_station" required><br><br>
+        
+        <input type="submit" value="Conform">
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
